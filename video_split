@@ -1,0 +1,7 @@
+#!/bin/bash
+#  multiple split short video clips from one large video file with same Quality 
+# 2017/08/10
+
+while read -r orig_video fn start end; do
+   ffmpeg -i "${orig_video}" -ss ${start} -to ${end} -c copy "${fn}"
+done < clip
