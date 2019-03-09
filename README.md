@@ -12,8 +12,8 @@ Film file:
   
     format for python: [original_video,filename,output,filename,start_time,end_time]
 
-Example File (clip):
+Example (clip):
 
-    [Bash] bash ./video_split 2017-08-06-13-33-49.mp4 d8.mp4 00:40:25 01:02:40
+    > bash ./video_split 2017-08-06-13-33-49.mp4 d8.mp4 00:40:25 01:02:40
     
-    [Python] python video_split.py 2017-08-06-13-33-49.mp4,d8.mp4,00:40:25,01:02:40
+    > python video_split.py 2017-08-06-13-33-49.mp4,d8.mp4,00:40:25,01:02:40
